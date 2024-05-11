@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Sales\Block\Adminhtml\Order\View">
+        <plugin name="td::adminOrderButton_add_order_view_addComment_buttom"
+                type="TechDriven\AdminOrderButton\Plugin\Sales\Block\Order\View\AddCommentButton"/>
+    </type>
+    <type name="Magento\Ui\Component\MassAction">
+        <plugin name="td::adminOrderButton_order_list_massaction_comment"
+                type="TechDriven\AdminOrderButton\Plugin\Ui\Component\MassAction\CommentAction"/>
+    </type>
+</config>

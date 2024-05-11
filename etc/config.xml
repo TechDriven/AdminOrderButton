@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <td_order_comment_button>
+            <general>
+                <enable>1</enable>
+                <comment>This is a demo comment</comment>
+            </general>
+        </td_order_comment_button>
+    </default>
+</config>
